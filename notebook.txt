@@ -1,0 +1,138 @@
+jenis jenis machine learning
+1. Supervised Learning
+    Supervised learning, atau pembelajaran terawasi, 
+    merupakan jenis machine learning dengan melibatkan pelatihan 
+    model menggunakan data yang sudah diberi label.
+2. Unsupervised Learning
+    Unsupervised learning, atau pembelajaran tak terawasi, 
+    melibatkan pelatihan model 
+    menggunakan data yang tidak memiliki label 
+    atau hasil yang sudah ditentukan
+3. Semi-Supervised Learning
+5. Reinforcement Learning
+
+
+
+Rangkuman Hi, Machine Learning!
+Berikut adalah rangkuman dari modul yang sudah kita pelajari.
+
+Pengantar Machine Learning
+Dalam beberapa dekade terakhir, machine learning telah mengalami kemajuan pesat dan menjadi pusat dari banyak inovasi teknologi. Ini memegang peranan penting dalam revolusi industri 4.0 yang dipenuhi dengan perubahan digital besar-besaran.
+
+Machine learning tidak hanya mendukung produk-produk canggih, tetapi juga mengubah cara kita berinteraksi dengan teknologi, meningkatkan efisiensi operasional, dan membuka peluang baru dalam berbagai sektor industri.
+
+Apa Itu Machine Learning?
+
+Menurut Arthur Samuel, seorang pionir dalam kecerdasan buatan, machine learning adalah berikut.
+
+“A field of study that gives computers the ability to learn without being explicitly programmed.”
+(Arthur Samuel, 1959)
+
+Arthur Samuel memperkenalkan istilah machine learning pada tahun 1959. Dia mendefinisikan machine learning sebagai cabang ilmu yang memungkinkan komputer belajar dan berkembang tanpa diprogram secara eksplisit untuk setiap tugas. Jadi, alih-alih memerlukan serangkaian aturan dari manusia, mesin dapat mempelajari pola berdasarkan data. Mesin pun dapat membuat keputusan atau prediksi berdasarkan pembelajaran tersebut. Ini membuat proses pemrograman lebih fleksibel dan adaptif.
+
+Taksonomi Kecerdasan Buatan
+
+Untuk memahami machine learning lebih baik, kita perlu melihat taksonomi kecerdasan buatan (AI). Berikut adalah urutan taksonomi AI secara sederhana.
+
+Artificial Intelligence (AI)
+AI adalah konsep dasar mencakup penggunaan komputer atau mesin untuk melakukan tugas yang biasanya membutuhkan kecerdasan manusia, seperti pengambilan keputusan dan pemecahan masalah.
+
+Machine Learning (ML)
+Machine learning adalah cabang dari AI yang memungkinkan komputer belajar dari data tanpa diprogram secara eksplisit. ML membantu komputer mengenali pola dan membuat prediksi berdasarkan data yang telah dipelajari.
+
+Neural Network (NN)
+Neural network adalah model matematis terinspirasi dari jaringan saraf manusia. Pada ML, NN digunakan untuk memproses informasi dan belajar dari data dengan menghubungkan neuron-neuron buatan dalam lapisan-lapisan.
+
+Deep Learning (DL)
+Deep learning adalah sub-bidang ML yang menggunakan neural network dengan banyak lapisan (deep neural network) untuk memahami data yang lebih kompleks. DL sangat berperan dalam pengenalan gambar dan pemrosesan bahasa alami.
+
+Generative AI
+Generative AI adalah cabang AI yang fokus pada pembuatan konten baru dan orisinal, seperti teks, gambar, serta musik. Berbeda dari AI tradisional yang mengikuti aturan yang sudah ada, generative AI dapat menghasilkan sesuatu yang belum pernah ada sebelumnya.
+
+Komponen Utama dalam Machine Learning
+Berikut adalah komponen utama dalam machine learning yang penting untuk membangun model yang efektif.
+
+Data
+Data adalah bahan dasar untuk machine learning. Tanpa data, model tidak dapat dilatih. Data terdiri dari fitur (atribut) dan label (hasil yang ingin diprediksi).
+
+Model
+Model adalah algoritma matematis yang digunakan untuk mempelajari pola dari data. Misalnya, model regresi linier atau decision tree.
+
+Algoritma
+Algoritma adalah metode yang digunakan untuk melatih model dengan data. Algoritma menentukan cara model belajar dari data dan mengoptimalkan prosesnya.
+
+Feature Engineering
+Feature engineering adalah proses mengubah data mentah menjadi fitur yang lebih relevan dan informatif untuk model. Ini termasuk pemilihan dan pembuatan fitur baru.
+
+Training
+Training adalah proses model belajar dari data. Model memperbarui parameter untuk meminimalkan kesalahan dan meningkatkan akurasi.
+
+Evaluation
+Evaluation adalah proses menilai kinerja model menggunakan data yang tidak digunakan selama pelatihan. Ini melibatkan metrik evaluasi, seperti akurasi dan precision.
+
+Hyperparameter Tuning
+Hyperparameter tuning adalah proses mengoptimalkan parameter di luar model yang memengaruhi kinerja model. Ini dilakukan untuk meningkatkan akurasi model.
+
+Deployment
+Deployment adalah tahap akhir ketika model yang telah dilatih diterapkan dalam lingkungan nyata untuk digunakan pada aplikasi atau sistem.
+
+Jenis-Jenis Machine Learning
+Ada beberapa jenis machine learning, masing-masing dengan pendekatan dan tujuan yang berbeda.
+
+Supervised Learning
+Supervised learning menggunakan data yang sudah diberi label untuk melatih model. Tujuannya adalah mempelajari hubungan antara input dan output sehingga model dapat memprediksi hasil untuk data baru.
+
+Unsupervised Learning
+Unsupervised learning menggunakan data tanpa label untuk mengidentifikasi pola atau struktur dalam data. Ini termasuk teknik seperti clustering, yakni mengelompokkan data berdasarkan fitur yang ada.
+
+Semi-Supervised Learning
+Semi-supervised learning menggabungkan data berlabel dan tidak berlabel. Model dilatih dengan data berlabel dan kemudian menggunakan data tidak berlabel untuk meningkatkan akurasi.
+
+Reinforcement Learning
+Reinforcement learning fokus pada cara agen belajar mengambil tindakan untuk memaksimalkan hadiah. Agen belajar melalui percobaan dan kesalahan untuk menemukan tindakan terbaik dalam situasi tertentu.
+
+Merumuskan Masalah dalam Machine Learning
+Merumuskan masalah dalam machine learning adalah langkah awal yang penting dalam pengembangan model. Berikut langkah-langkahnya.
+
+Identifikasi Tujuan Bisnis
+
+Tujuan: Menetapkan hal yang ingin dicapai (misalnya, meningkatkan penjualan, mengurangi churn).
+
+Metode SMART: Menetapkan tujuan yang spesifik, terukur, dapat dicapai, relevan, dan terikat waktu.
+
+Pahami Data yang Tersedia
+
+Inventarisasi Data: Identifikasi semua sumber data internal dan eksternal.
+
+Evaluasi Kualitas Data: Periksa kelengkapan, konsistensi, keakuratan, dan relevansi data.
+
+Eksplorasi Data: Gunakan visualisasi serta analisis statistik untuk memahami pola dan hubungan antar variabel.
+
+Pemilihan Fitur: Pilih fitur yang relevan untuk model.
+
+Pembersihan dan Transformasi Data: Atasi masalah, seperti missing values, duplikasi, dan transformasi data untuk mempersiapkannya.
+
+Tentukan Jenis Masalah Machine Learning
+
+Klasifikasi: Mengelompokkan data ke dalam kategori (misalnya, menentukan apakah pelanggan akan churn).
+
+Regresi: Memprediksi nilai numerik kontinu (misalnya, tinggi badan).
+
+Clustering: Mengelompokkan data berdasarkan kesamaan tanpa label (misalnya, segmentasi pelanggan).
+
+Definisikan Variabel Target dan Fitur
+
+Fitur: Variabel yang digunakan untuk mendeskripsikan data (misalnya, panjang dan lebar sepal bunga iris).
+
+Target: Variabel yang ingin diprediksi atau diklasifikasikan (misalnya, spesies bunga iris).
+
+Membuat Pernyataan Masalah yang Jelas
+
+Rumuskan masalah dengan pernyataan yang spesifik untuk mengarahkan pengembangan model (misalnya, "Memprediksi apakah pelanggan akan churn dalam 3 bulan ke depan").
+
+Tantangan dalam Machine Learning
+Kualitas Data: Data harus bersih dan bebas dari kesalahan; data yang buruk dapat memengaruhi akurasi model.
+Keterbatasan Data: Terlalu sedikit data atau ketidakseimbangan kategori dapat memengaruhi efektivitas model.
+Pemilihan Model dan Algoritma: Memilih model dan algoritma yang tepat serta mengatur hyperparameter dengan benar.
+Etika dan Privasi: Melindungi data pribadi dan menghindari bias dalam data.
+Pemeliharaan dan Pembaruan: Model perlu diperbarui secara berkala agar tetap relevan dengan data terbaru.
